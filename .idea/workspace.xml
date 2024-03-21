@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="finished doctors class functionalities &amp; created new class HMS">
+    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="happy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Doctors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Doctors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/HospitalManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/HospitalManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711027808031</updated>
-      <workItem from="1711027809180" duration="11411000" />
+      <workItem from="1711027809180" duration="12347000" />
     </task>
     <task id="LOCAL-00001" summary="prepare">
       <option name="closed" value="true" />
@@ -105,7 +103,47 @@
       <option name="project" value="LOCAL" />
       <updated>1711033299836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done doctor class functionalites">
+      <option name="closed" value="true" />
+      <created>1711040332580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040332580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added delete function">
+      <option name="closed" value="true" />
+      <created>1711040346086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040346086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added delete method">
+      <option name="closed" value="true" />
+      <created>1711040361586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040361586</updated>
+    </task>
+    <task id="LOCAL-00008" summary="happy">
+      <option name="closed" value="true" />
+      <created>1711040377238</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040377238</updated>
+    </task>
+    <task id="LOCAL-00009" summary="happy">
+      <option name="closed" value="true" />
+      <created>1711040392371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040392371</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +154,10 @@
     <MESSAGE value="sql connection + add patient" />
     <MESSAGE value="Doc class" />
     <MESSAGE value="finished doctors class functionalities &amp; created new class HMS" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished doctors class functionalities &amp; created new class HMS" />
+    <MESSAGE value="done doctor class functionalites" />
+    <MESSAGE value="added delete function" />
+    <MESSAGE value="added delete method" />
+    <MESSAGE value="happy" />
+    <option name="LAST_COMMIT_MESSAGE" value="happy" />
   </component>
 </project>

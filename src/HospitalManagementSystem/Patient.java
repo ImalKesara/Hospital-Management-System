@@ -16,12 +16,14 @@ public class Patient {
     }
 
     public void addPatient(){
-        System.out.println("Enter patient name");
-        String pName = scanner.nextLine();
-        System.out.println("Enter patient age");
+        System.out.print("Enter patient name");
+        String pName = scanner.next();
+
+        System.out.print("Enter patient age");
         int age = scanner.nextInt();
-        System.out.println("Enter patient gender");
-        String gender = scanner.nextLine();
+
+        System.out.print("Enter patient gender");
+        String gender = scanner.next();
 
         try {
             String query =  "INSERT INTO patients(name,age,gender) VALUES (?,?,?)";
@@ -57,8 +59,26 @@ public class Patient {
                 String name = resultSet.getString("name");
                 int age = resultSet.getInt("age");
                 String gender = resultSet.getString("gender");
-                System.out.printf("|%-9s|%-22s|%-14s|%-15s|\n",id,name,age,gender);
+                System.out.printf("|%-9s|%-20s|%-14s|%-15s|\n",id,name,age,gender);
                 System.out.println("+--------+---------------------+--------------+----------------+");
+            }
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void deletePatients(){
+        System.out.println("Enter Patient id you wish to delete");
+        int patientID = scanner.nextInt();
+        try {
+            String query = "DELETE FROM patients WHERE id = ? ";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1,patientID);
+            int rowsAffected = preparedStatement.executeUpdate();
+            if (rowsAffected > 0 ){
+                System.out.println("Patient with id "+ patientID + "has been deleted successFully");
+            }else{
+                System.out.println("No patient found with ID " + patientID + ".");
             }
         }catch (SQLException e){
             e.printStackTrace();

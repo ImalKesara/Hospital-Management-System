@@ -62,16 +62,16 @@ public class HospitalManagementSystem {
     }
 
     public static void bookAppointment(Patient patient,Doctors doctors,Connection connection , Scanner scanner){
-        System.out.println("Enter patient id");
+        System.out.print("Enter patient id");
         int pID = scanner.nextInt();
-        System.out.println("Enter Doctor id");
+        System.out.print("Enter Doctor id");
         int dID = scanner.nextInt();
-        System.out.println("Enter appointment date (YYYY-MM-DD):- ");
+        System.out.print("Enter appointment date (YYYY-MM-DD):- ");
         String appointmentDate = scanner.next();
 
         if(patient.getPatientId(pID) && doctors.getDoctorId(dID)){
             if(checkDoctorAvailability(dID,appointmentDate,connection)){
-                String appointmentQuery = "INSERT INTO appointments(patient_id,patient_id,patient_id) VALUES(?,?,?)";
+                String appointmentQuery = "INSERT INTO appointments(patient_id,doctor_id,appointment_date) VALUES(?,?,?)";
                 try {
                     PreparedStatement preparedStatement = connection.prepareStatement(appointmentQuery);
                     preparedStatement.setInt(1,pID);

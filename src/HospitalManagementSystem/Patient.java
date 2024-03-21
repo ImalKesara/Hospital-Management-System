@@ -57,7 +57,7 @@ public class Patient {
                 String name = resultSet.getString("name");
                 int age = resultSet.getInt("age");
                 String gender = resultSet.getString("gender");
-                System.out.printf("|%-12s|%-20s|%-10s|%-12s|");
+                System.out.printf("|%-9s|%-22s|%-14s|%-15s|\n",id,name,age,gender);
                 System.out.println("+--------+---------------------+--------------+----------------+");
             }
         }catch (SQLException e){

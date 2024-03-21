@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="Doc class">
-      <change afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/HospitalManagementSystem.java" afterDir="false" />
+    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="finished doctors class functionalities &amp; created new class HMS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Doctors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Doctors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/HospitalManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/HospitalManagementSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HospitalManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711027808031</updated>
-      <workItem from="1711027809180" duration="5386000" />
+      <workItem from="1711027809180" duration="11411000" />
     </task>
     <task id="LOCAL-00001" summary="prepare">
       <option name="closed" value="true" />
@@ -96,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711032386197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished doctors class functionalities &amp; created new class HMS">
+      <option name="closed" value="true" />
+      <created>1711033299836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711033299836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,7 @@
     <MESSAGE value="prepare" />
     <MESSAGE value="sql connection + add patient" />
     <MESSAGE value="Doc class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doc class" />
+    <MESSAGE value="finished doctors class functionalities &amp; created new class HMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished doctors class functionalities &amp; created new class HMS" />
   </component>
 </project>

@@ -10,7 +10,7 @@ public class Doctors {
     private Connection connection;
 
 
-    public Doctors(Connection connection, Scanner scanner){
+    public Doctors(Connection connection){
         this.connection = connection;
 
     }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="prepare">
+    <list default="true" id="192dd070-df75-4174-a93a-ccad2bca62b2" name="Changes" comment="sql connection + add patient">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalManagementSystem/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,6 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/usr/share/java/mysql-connector-j.jar",
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711027808031</updated>
-      <workItem from="1711027809180" duration="2648000" />
+      <workItem from="1711027809180" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="prepare">
       <option name="closed" value="true" />
@@ -79,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711029305309</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sql connection + add patient">
+      <option name="closed" value="true" />
+      <created>1711030559787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711030559787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prepare" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare" />
+    <MESSAGE value="sql connection + add patient" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql connection + add patient" />
   </component>
 </project>
